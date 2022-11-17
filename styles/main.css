@@ -1,0 +1,159 @@
+.container {
+	width: px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+aside {
+	float: left;
+	width: calc(100%/12*2);
+	background-color: #FBFF02;
+	height: 700px;
+	margin: 30px 20px 10px 20px; 
+}
+.header-a {
+    background-color: #1329E1;
+	height:20px;
+	width: 100%;
+}
+.header-b {
+	background-color: #000000;
+	height: 30px;
+	width: 100%;
+}
+.block-cc {
+	float: right;
+	width: calc(100%/12*9.5);
+	background-color: #FFFFFF;
+	height: 700px;
+	margin-top: 30px;
+}	
+.block-c {
+	float: right;
+	width: calc(100%/12*12);
+	background-color: #F4F3F9;
+	height: 500px;
+}
+.block-d {
+	float: right;
+	width: calc(100%/12*12);
+	height: 20px;	
+	position: relative; top: 500px; left: 10px;
+}
+.block-e {
+	float: right;
+	width: calc(100%/12*12);
+	height: 25%;
+	position: relative; top: 550px; right: 0px;
+}
+.block-g{ 
+    float: left;
+    width: calc(100%/12*2); 
+	height: 120px;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+	border-color: #429DF7;
+	margin: 10px 25px 10px 0px;     
+}	
+@media screen and (min-width: 768px) {
+aside {
+	width: calc(100%/12*12);
+	height: 50px;
+	margin: 20px 0px 0px ; 
+}
+.block-cc {
+	width: calc(100%/12*12);
+}	
+.block-c {
+	width: calc(100%/12*12);
+}
+.block-d {
+	width: calc(100%/12*12);	
+}
+.block-e {
+	width: calc(100%/12*12);
+	position: relative;
+}
+.block-g{ 
+    width: calc(100%/12*1.8); 
+	height: 100px;
+	margin: 10px 20px 10px 10px;	
+}
+}
+@media screen and (max-width: 768px) {
+aside {
+	width: calc(100%/12*12);
+	height: 50px;
+	margin: 20px 0px 0px;  
+}
+.block-cc {
+	width: calc(100%/12*12);
+	height: 800px;
+	
+}	
+.block-c {
+	width: calc(100%/12*12)
+	float: right;
+	background-color: #FFFFFF;
+	height: 0px;
+	margin-top: 0px;
+}
+.block-d {
+	width: calc(100%/12*12);
+    position: relative; top: -30px; right: 0px;	
+}
+.block-e {
+	width: calc(100%/12*12);
+	position: relative; top: 15px; right: 0px;
+	height: 700px;
+}
+.block-g { 
+    width: calc(100%/12*4); 
+	height:170px;
+	margin: 20px 40px 20px 40px; 	
+}
+}
+
+@media screen and (min-width: 1200px) {
+aside {
+	float: left;
+	width: calc(100%/12*2);
+	background-color: #FBFF02;
+	height: 700px;
+	margin: 30px 20px 10px 20px; 
+}
+.block-cc {
+	float: right;
+	width: calc(100%/12*9.5);
+	background-color: #FFFFFF;
+	height: 700px;
+	margin-top: 30px;
+}	
+.block-c {
+	float: right;
+	width: calc(100%/12*12);
+	background-color: #F4F3F9;
+	height: 500px;
+}
+.block-d {
+	float: right;
+	width: calc(100%/12*12);
+	height: 20px;	
+	position: relative; top: 500px; left: 10px;
+}
+.block-e {
+	float: right;
+	width: calc(100%/12*12);
+	height: 25%;
+	position: relative; top: 550px; right: 0px;	
+}
+.block-g{ 
+    float: left;
+    width: calc(100%/12*2); 
+	height: 120px;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+	border-color: #429DF7;
+	margin: 10px 25px 10px 0px;     
+}	
+}
